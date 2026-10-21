@@ -1,79 +1,85 @@
-<!-- This is the markdown template for the final project of the Building AI course, 
-created by Reaktor Innovations and University of Helsinki. 
-Copy the template, paste it to your GitHub README and edit! -->
+# Eco-Stitch AI: Smart Clothing Upcycling and Sustainable Fashion Design
 
-# Project Title
-
-Final project for the Building AI course
+**Building AI course project**
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
-
+Eco-Stitch AI is a proposed AI-assisted system that helps transform old clothes and textile scraps into new fashion ideas. It aims to support sustainable clothing reuse through image analysis, design recommendations, and inspiration from Pakistani cultural patterns.
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+The fashion industry generates textile waste when clothes are discarded or leftover fabrics are not reused. Many old clothes can be repaired, redesigned, or transformed into useful products instead of being thrown away.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+The aim of Eco-Stitch AI is to explore how Artificial Intelligence can support clothing upcycling and encourage sustainable fashion.
 
+The main problems this project addresses are:
+
+- Reducing avoidable textile waste by encouraging reuse.
+- Helping people discover creative ways to redesign old clothes.
+- Supporting sustainable fashion choices.
+- Exploring ways to incorporate Pakistani cultural designs into modern clothing.
+
+My motivation for this project is to combine Artificial Intelligence, creativity, environmental sustainability, and traditional Pakistani fashion.
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+The proposed system would allow users to upload an image of an old garment or leftover fabric. The system could analyse visible features, such as colour, clothing type, and fabric condition, and suggest possible ways to reuse or redesign the item.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+A possible workflow would be:
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+1. The user uploads an image of old clothing or textile scraps.
+2. The system identifies relevant visual features using image analysis.
+3. The system suggests suitable upcycling ideas, such as patchwork, redesigned garments, bags, or accessories.
+4. Users explore design suggestions inspired by contemporary fashion and Pakistani cultural patterns, including Ajrak, truck art, and Balochi embroidery.
 
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
+Potential users include students, home-based designers, small fashion businesses, and people interested in sustainable clothing.
 
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
+These features describe the proposed system; they are not claimed to be implemented or tested yet.
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+The project would explore publicly available clothing-image datasets and appropriately licensed images of garments and textile materials. Additional images could be collected personally, with permission where necessary.
+
+Possible AI methods include:
+
+- **Image classification:** To identify clothing categories or visible garment characteristics.
+- **Computer vision:** To analyse image features such as colours and patterns.
+- **Recommendation methods:** To suggest possible upcycling ideas based on the identified features and predefined design rules.
+
+The initial approach would focus on a manageable set of clothing categories and simple recommendations. More advanced image recognition and personalised recommendations could be explored later.
+
+Any dataset used would need to be checked for suitability, licensing, and relevance to the project. The final implementation and its results would depend on the available data and tools.
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+The system would have several limitations:
+
+- An image alone may not reveal the exact fabric type, quality, or physical condition.
+- Similar-looking garments may require different upcycling techniques.
+- Fashion preferences vary between users and cultures.
+- AI-generated recommendations may be impractical or unsuitable for certain materials.
+- Public datasets may not adequately represent Pakistani clothing and traditional designs.
+- Images and datasets must be used responsibly, respecting copyright, privacy, and licensing requirements.
+
+The system would provide suggestions rather than guarantee that a garment can be safely or successfully redesigned. Human judgement would remain important.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+Future improvements could include:
 
+- Developing and testing a basic working prototype.
+- Collecting a suitable dataset of old clothes and textile scraps.
+- Improving image classification and upcycling recommendations.
+- Adding more Pakistani traditional patterns and regional design inspirations.
+- Exploring current sustainable fashion trends.
+- Evaluating the usefulness and accuracy of the recommendations through user feedback.
+
+Further progress would require suitable training data, Python and machine-learning skills, and feedback from people with experience in clothing design and textile recycling.
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+- University of Helsinki and Reaktor for the Building AI course.
+- Open-source AI and machine-learning resources that may support future development.
+- Creators of any datasets, images, or other materials used, with appropriate attribution and licence information.
+
+No third-party images or datasets will be included without checking their permitted use and attribution requirements.
